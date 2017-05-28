@@ -6,7 +6,6 @@ labels:
 message: |-
   The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.
 
-  For more information about using this template, including OpenShift considerations, see https://github.com/openshift/origin/blob/master/examples/wordpress/template/README.md.
 metadata:
   annotations:
     description: |-
