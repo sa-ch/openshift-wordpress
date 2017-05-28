@@ -10,9 +10,7 @@ message: |-
 metadata:
   annotations:
     description: |-
-      An WordPress application with a MySQL database.For more information about using this template, including OpenShift considerations, see https://github.com/openshift/origin/blob/master/examples/wordpress/template/README.md.
-
-      NOTE: The MySQL service created by this template uses persistent storage. 
+      An WordPress application with a MySQL database with persistent storage.
     iconClass: icon-php
     openshift.io/display-name: WordPress + MySQL
     tags: instant-app,php,wordpress
