@@ -145,8 +145,9 @@ objects:
   kind: PersistentVolumeClaim
   metadata:
     name: wordpress-pvc
-    annotations:
-      volume.beta.kubernetes.io/storage-class: gluster-container
+#    annotations:
+#      volume.beta.kubernetes.io/storage-class: 
+
   spec:
     accessModes:
     - ReadWriteMany
@@ -157,8 +158,8 @@ objects:
   kind: PersistentVolumeClaim
   metadata:
     name: mysql-pvc
-    annotations:
-      volume.beta.kubernetes.io/storage-class: gluster-container
+ #   annotations:
+ #     volume.beta.kubernetes.io/storage-class: gluster-container
   spec:
     accessModes:
     - ReadWriteOnce
